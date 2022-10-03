@@ -1,0 +1,69 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: azure;
+    font-size: 0.9rem;
+}
+
+#container {
+    width: 720px;
+    background-color: white;
+    margin: 0 center;
+}
+
+#marca {
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background-color: beige;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+#conteudo {
+    float: right;
+    width: 520px;
+}
+
+#conteudoPrincipal {
+    float: left;
+    width: 300px;
+}
+
+#conteudoPrincipal h2 p {
+    font-size: 0.9rem;
+ }
+ 
+
+#conteudoSecundario {
+    float: right;
+    width: 200px;
+}
+
+#conteudoSecundario h2 p {
+   padding-left: 20px;
+   padding-right: 20px;
+   font-size: 0.9rem;
+}
+
+#navegacao {
+    float: left;
+    width: 180px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+#navegacao ul {
+    list-style: none;
+}
+
+#navegacao li a {
+    text-decoration: none;
+}
+
+#rodape {
+    clear: both;
+    padding: 5px;
+    text-align: center;
+    background-color: burlywood;
+}
